@@ -24,3 +24,5 @@ CREATE TABLE users (
     email varchar(100) not null unique, -- unique 는 이메일은 중복되면 안됩니다!! 
     country varchar(100) not null 
 );
+
+select * from users;
